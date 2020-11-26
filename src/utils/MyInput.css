@@ -1,0 +1,22 @@
+
+.MyInput{
+    /* position: absolute; */
+    /* top:35%; */
+    /* right:  8px; */
+   height: 40px;
+   width: 200px;
+   border: none;
+   font-size: large;
+    background: rgb(241, 226, 229);
+}
+.inputBox{
+    margin: 1px;
+    /* position: relative; */
+    height: 80px;
+    width: 220px; 
+    background: rgba(224, 233, 233, 0.842);
+}
+p{
+    text-align: center;
+    margin: 0!important;
+}
