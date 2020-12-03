@@ -1,10 +1,21 @@
 .MyRouter{
     background: rgb(187, 187, 230);
-    position: fixed;
-    width: 100%;
-    height: 100%;
+}
+.header{
+background: rgb(226, 190, 190);
+position: sticky;
+min-height: 98px;
+
+z-index: 100;
+top: 0;}
+
+.header h1{
+    margin: 0;
 }
 li{
-    display: inline-block;
-padding: 20px;
+    list-style: none;
+    float: right;
+    /* display: inline-block; */
+    width: 30%;
+/* padding: 20px; */
 }

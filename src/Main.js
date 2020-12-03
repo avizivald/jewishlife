@@ -12,11 +12,8 @@ function Main() {
         console.log('objInfo ',objInfo);
     }
     function send (){//    axios.get('minyan')
-
-        axios.post('http://localhost:3001/new', {
-            firstName: 'Fred',
-            lastName: 'Flintstone'
-          })
+console.log('objInfo  ',objInfo);
+        axios.post('http://localhost:3001/new', objInfo)
           .then(function (response) {
             console.log(response);
           })
@@ -28,14 +25,13 @@ function Main() {
 // mincha: "יעיע"
 // shacharit: "יע"
         // insertNewSynagogue(objInfo.)
-        console.log( "objInfo ",objInfo);
     }
     
     return (
         <div className='main'>
             <h1>Man</h1>
             <div className='forminput'>
-            <MyInput  name={'Synagogue'} onChange ={setObjInfoByChange} title={'enter Synagogue name'} placeholder={'enter Synagogue name'} />
+            <MyInput  name={'name'} onChange ={setObjInfoByChange} title={'enter Synagogue name'} placeholder={'enter Synagogue name'} />
             <MyInput  name={'shacharit'} onChange ={setObjInfoByChange} title={'enter shacharit time'} placeholder={'enter shacharit time'} />
             <MyInput  name={'mincha'} onChange ={setObjInfoByChange} title={'enter mincha time'} placeholder={'enter mincha time'} />
             <MyInput  name={'arvit'} onChange ={setObjInfoByChange} title={'enter arvit time'} placeholder={'enter arvit time'} />

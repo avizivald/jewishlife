@@ -2,11 +2,12 @@
     direction: rtl;
     height: 100%;
     width: 100%;
-    overflow-y: scroll;   
+    /* margin: 1%; */
+    /* overflow-y: scroll;    */
 }
 .forminput{
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     height: 450px;
    width: 450px;
 }

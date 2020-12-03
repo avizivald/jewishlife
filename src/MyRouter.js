@@ -12,24 +12,26 @@ import Tfila from './Tfila';
 function MyRouter() {
     return (
         <div className='MyRouter'>
+
             <Router>
-                <h1>App</h1>
-                <ul>
-                    <li>
-                        <Link to="/">Main</Link>
-                    </li>
-                    <li>
-                        <Link to="/Help">Help</Link>
-                    </li>
-                    <li>
-                        <Link to="/Tfila">tfila</Link>
-                    </li>
-                </ul>
-                <hr />
+                <header className='header'>
+                    <h1>App</h1>
+                    <ul >
+                        <li>
+                            <Link to="/">Main</Link>
+                        </li>
+                        <li>
+                            <Link to="/Help">Help</Link>
+                        </li>
+                        <li>
+                            <Link to="/Tfila">tfila</Link>
+                        </li>
+                    </ul>
+                </header>
                 <Switch>
                     <Route exact path="/">
                         <Main />
-</Route>
+                    </Route>
                     <Route path="/Tfila">
                         <Tfila />
                     </Route>

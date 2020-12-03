@@ -9,8 +9,8 @@ function MyInput(props) {
         <div className="inputBox">
             {<p>{title}</p>}
             <input className="MyInput"
-            name={name}
-            onChange={props.onChange}
+                name={name}
+                onChange={props.onChange}
                 placeholder={placeholder}
                 maxLength="25"
             ></input>

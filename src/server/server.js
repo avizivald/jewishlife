@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 3001;
+const insertNewSynagogue =require('./insertNewSynagogue')
 const getMinyanim = require('./getMinyanim');
 getMinyanim.a();
 async function getData (){
@@ -10,8 +11,14 @@ return ens
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
+app.use(express.urlencoded());
+
+// Parse JSON bodies (as sent by API clients)
+app.use(express.json());
+
 app.post('/new', (req, res) => {
-  console.log('req',req);
+  console.log('reqqqqqqqqqqqqqqqqq',req.body);
+  insertNewSynagogue(req.body.name,req.body.shacharit,req.body.mincha,req.body.arvit)
   res.send('Hello World!')
 })
  app.get('/minyan', (req, res) => {
