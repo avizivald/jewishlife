@@ -1,21 +1,175 @@
 .MyRouter{
-    background: rgb(187, 187, 230);
+    /* background: rgb(187, 187, 230); */
 }
 .header{
-background: rgb(226, 190, 190);
+background: rgb(219, 212, 212);
+
 position: sticky;
-min-height: 98px;
+height: 98px;
 
-z-index: 100;
+z-index: 10;
 top: 0;}
-
+ul{
+}
 .header h1{
     margin: 0;
 }
 li{
     list-style: none;
     float: right;
+    text-align: center;
+    /* margin-left: 3px; */
+
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border-left: maroon 2px solid; */
     /* display: inline-block; */
-    width: 30%;
-/* padding: 20px; */
+    width: 24.4%;
+    /* padding: 20px; */
 }
+
+li a{
+    font-size: 40px;
+    position: relative;
+    top: 27%;
+    text-decoration: none;
+    margin: 0
+}
+li.logo{
+    min-height: 100px;
+    background-image: url('./images/kotel.jpg');
+    background-size: contain;
+  
+    opacity: .6; 
+
+    
+}
+@media (min-width: 1300px) {
+    span{
+        position: absolute;
+        top:3px;
+        right: 30px;
+        color: red;
+        font-weight: bolder;
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+  }
+@media (max-width: 1299px) and (min-width:1200px){
+    span{
+        position: absolute;
+        top:3px;
+        right: 50px;
+        color: red;
+        font-weight: bolder;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    li a{
+        font-size: 40px;
+        position: relative;
+        top: 27%;
+        text-decoration: none;
+        margin: 0
+    }
+  }
+@media (max-width: 1199px) and (min-width:1020px){
+    span{
+        position: absolute;
+        top:3px;
+        right: 30px;
+        color: red;
+        font-weight: bolder;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    li a{
+        font-size: 40px;
+        position: relative;
+        top: 27%;
+        text-decoration: none;
+        margin: 0
+    }
+  }
+@media (max-width: 1019px) and (min-width:840px){
+    span{
+        position: absolute;
+        top:3px;
+        right: 10px;
+        color: red;
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    li a{
+        font-size: 40px;
+        position: relative;
+        top: 27%;
+        text-decoration: none;
+        margin: 0
+    }
+  }
+@media (max-width: 839px) and (min-width:680px){
+    span{
+        position: absolute;
+        top:3px;
+        right: 10px;
+        color: red;
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    li a{
+        font-size: 25px;
+        font-weight: bolder;
+        position: relative;
+        top: 27%;
+        text-decoration: none;
+        margin: 0
+    }
+  }
+@media (max-width: 679px) and (min-width:540px){
+    span{
+        position: absolute;
+        top:3px;
+        right: 10px;
+        color: red;
+        font-weight: bolder;
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    li a{
+        font-size: 25px;
+        font-weight: bolder;
+        position: relative;
+        top: 27%;
+        text-decoration: none;
+        margin: 0
+    }
+  }
+@media (max-width:539px){
+    span{
+        position: absolute;
+        top:3px;
+        right: 10px;
+        color: red;
+        font-weight: bolder;
+        font-size: 14px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    li a{
+        font-size: 25px;
+        font-weight: bolder;
+        position: relative;
+        top: 27%;
+        text-decoration: none;
+        margin: 0
+    }
+  }
+  

@@ -15,16 +15,18 @@ function MyRouter() {
 
             <Router>
                 <header className='header'>
-                    <h1>App</h1>
+                           <span>עזרה לחיים יהודיים</span>
                     <ul >
-                        <li>
-                            <Link to="/">Main</Link>
+                        <li className='logo'>
                         </li>
                         <li>
-                            <Link to="/Help">Help</Link>
+                            <Link to="/">תרום מידע</Link>
                         </li>
                         <li>
-                            <Link to="/Tfila">tfila</Link>
+                            <Link to="/Help">שידוכים</Link>
+                        </li>
+                        <li>
+                            <Link to="/Tfila">תפילה בציבור</Link>
                         </li>
                     </ul>
                 </header>
