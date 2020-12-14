@@ -1,7 +1,7 @@
 
 const connection = require('./connect');
 connection.connect();
-const createTable = require('./createTable')
+// const createTable = require('./createTable')
 let data
 let createTableUsers =`CREATE TABLE IF NOT EXISTS users (
 
@@ -31,7 +31,7 @@ function sendMyData(){
 return data
 }
 function CreateQuery(name ,shacharit,mincha,arvit) {
-  createTable(createTableUsers);
+  // createTable(createTableUsers);
   let insertQuery = `INSERT INTO minyanim (synagogue, shacharit, mincha, arvit) VALUES ('${name}', ${shacharit},  ${mincha},  ${arvit})`
   return new Promise((resolve, reject) => {
     console.log("insertQuery  ===>>>> ",insertQuery);

@@ -1,5 +1,7 @@
 const express = require('express')
-const app = express()
+const app = express();
+const cool = require('cool-ascii-faces');
+
 const port = 3001;
 const insertNewSynagogue =require('./insertNewSynagogue')
 const getMinyanim = require('./getMinyanim');
@@ -11,6 +13,12 @@ return ens
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
+app.get('/cool', (req, res) => {
+  res.send(cool())
+})
+
+
+
 app.use(express.urlencoded());
 
 // Parse JSON bodies (as sent by API clients)
