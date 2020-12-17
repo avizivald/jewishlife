@@ -2,7 +2,7 @@ const express = require('express')
 const app = express();
 const cool = require('cool-ascii-faces');
 
-const port = 3001;
+const port = process.env.PORT || 3001;
 const insertNewSynagogue =require('./insertNewSynagogue')
 const getMinyanim = require('./getMinyanim');
 getMinyanim.a();
@@ -11,6 +11,7 @@ async function getData (){
 return ens
 }
 app.get('/', (req, res) => {
+  console.log('process.env===>>>>  ',process.env.NODE_ENV);
   res.send('Hello World!')
 })
 app.get('/cool', (req, res) => {

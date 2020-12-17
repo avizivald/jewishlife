@@ -1,6 +1,6 @@
 
 const connection = require('./connect');
-connection.connect();
+// connection.connect();
 
 
 function CreateQuery(name ,shacharit,mincha,arvit, id=null) {

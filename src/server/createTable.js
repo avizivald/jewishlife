@@ -1,5 +1,5 @@
 const connection = require('./connect');
-connection.connect();
+// connection.connect();
 function createTable(query){
   
   return new Promise((resolve, reject) => {
