@@ -27,12 +27,12 @@ function Tfila() {
         })
         setShuls(newShuls)
         
-        console.log('location.hostname====>>.  ',window.location.hostname);
-        console.log('location.====>>.  ',window.location);
         // handle success
         console.log(response);
       })
       .catch(function (error) {
+        console.log('location.hostname====>>.  ',window.location.hostname);
+        console.log('location.====>>.  ',window.location);
         // handle error
         console.log(error);
       })
