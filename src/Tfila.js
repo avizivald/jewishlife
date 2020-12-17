@@ -26,7 +26,9 @@ function Tfila() {
           newShuls.push(<Shul shul={element} />)
         })
         setShuls(newShuls)
-
+        
+        console.log('location.hostname====>>.  ',window.location.hostname);
+        console.log('location.====>>.  ',window.location);
         // handle success
         console.log(response);
       })
