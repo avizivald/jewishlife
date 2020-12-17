@@ -17,7 +17,7 @@ function Tfila() {
       host = '/'
     }
     console.log('aaaaaaaaaaaaaaaaaaa');
-    axios.get(`${host}minyan`)
+    axios.get(`/minyan`)
       .then(function (response) {
         console.log('location.hostname====>>.  ',window.location.hostname);
         console.log('location.====>>.  ',window.location);
