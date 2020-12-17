@@ -9,9 +9,19 @@ function Tfila() {
     setShuls(newShuls)
   }
   function ax() {
+    let host;
+    if (window.location.host === 'localhost:3000') {
+      host = 'http://localhost:3001/'
+    }
+    else{
+      host = '/'
+    }
     console.log('aaaaaaaaaaaaaaaaaaa');
-    axios.get('http://localhost:3001/minyan')
+    axios.get(`${host}minyan`)
       .then(function (response) {
+        console.log('location.hostname====>>.  ',window.location.hostname);
+        console.log('location.====>>.  ',window.location);
+        console.log('response==...>>>  ',response);
         response.data.forEach(element => {
           newShuls.push(<Shul shul={element} />)
         })
@@ -25,6 +35,7 @@ function Tfila() {
         console.log(error);
       })
     }
+
  
   return (
     <div>

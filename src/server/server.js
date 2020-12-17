@@ -3,11 +3,13 @@ const app = express();
 const cool = require('cool-ascii-faces');
 
 const port = process.env.PORT || 3001;
+console.log("my port ==== :  ",port);
 const insertNewSynagogue =require('./insertNewSynagogue')
 const getMinyanim = require('./getMinyanim');
 getMinyanim.a();
 async function getData (){
     let ens =await getMinyanim.b();
+    console.log('ens==>>>',ens);
 return ens
 }
 app.get('/', (req, res) => {
