@@ -33,7 +33,7 @@ function sendMyData() {
 function CreateQuery(name, shacharit, mincha, arvit) {
   createTable(createTableUsers);
   createTable(createTableMinyanim);
-  let insertQuery = `INSERT INTO minyanim (synagogue, shacharit, mincha, arvit) VALUES ('${name}', ${shacharit},  ${mincha},  ${arvit})`
+  let insertQuery = `INSERT INTO minyanim (name, shacharit, mincha, arvit) VALUES ("${name}",${shacharit},${mincha},${arvit})`
   return new Promise((resolve, reject) => {
     console.log("insertQuery  ===>>>> ", insertQuery);
     connection.query(insertQuery, (error, results, fields) => {

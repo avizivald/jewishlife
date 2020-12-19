@@ -1,7 +1,6 @@
 const connection = require('./connect');
 // connection.connect();
 function createTable(query){
-  
   return new Promise((resolve, reject) => {
     console.log("query  ===>>>> ",query);
       connection.query(query, (error, results, fields)=> {

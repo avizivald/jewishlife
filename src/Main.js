@@ -13,6 +13,7 @@ function Main() {
     }
     function send (){//    axios.get('minyan')
 console.log('objInfo  ',objInfo);
+console.log('window.location  ',window.location);
         axios.post('http://localhost:3001/new', objInfo)
           .then(function (response) {
             console.log(response);

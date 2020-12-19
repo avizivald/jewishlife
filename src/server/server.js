@@ -33,7 +33,7 @@ app.post('/new', (req, res) => {
   res.send('Hello World!')
 })
  app.get('/minyan', (req, res) => {
-     
+     console.log("minyan");
      getData() .then(result => res.send(result))
 })
 
