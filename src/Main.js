@@ -14,7 +14,14 @@ function Main() {
     function send (){//    axios.get('minyan')
 console.log('objInfo  ',objInfo);
 console.log('window.location  ',window.location);
-        axios.post('http://localhost:3001/new', objInfo)
+let host;
+    if (window.location.host === 'localhost:3000') {
+      host = 'http://localhost:3001/'
+    }
+    else{
+      host = '/'
+    }
+        axios.post(`${host}new`, objInfo)
           .then(function (response) {
             console.log(response);
           })
