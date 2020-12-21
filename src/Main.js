@@ -13,7 +13,8 @@ function Main() {
     }
     function send (){//    axios.get('minyan')
 console.log('objInfo  ',objInfo);
-console.log('window.location  ',window.location);
+console.log('window  ',window);
+console.log('process  ',process);
 let host;
     if (window.location.host === 'localhost:3000') {
       host = 'http://localhost:3001/'
@@ -28,11 +29,6 @@ let host;
           .catch(function (error) {
             console.log(error);
           });
-//         Synagogue: "עיעיע"
-// arvit: "עי"
-// mincha: "יעיע"
-// shacharit: "יע"
-        // insertNewSynagogue(objInfo.)
     }
     
     return (

@@ -13,7 +13,7 @@ async function getData (){
 return ens
 }
 app.get('/', (req, res) => {
-  console.log('process.env===>>>>  ',process.env.NODE_ENV);
+  console.log('process.env===>>>>  ',process.env);
   res.send('Hello World!')
 })
 app.get('/cool', (req, res) => {
@@ -34,7 +34,7 @@ app.post('/new', (req, res) => {
 })
  app.get('/minyan', (req, res) => {
      console.log("minyan");
-     getData() .then(result => res.send(result))
+     getData().then(result => res.send(result))
 })
 
 app.listen(port, () => {
