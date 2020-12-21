@@ -14,16 +14,16 @@ function Tfila() {
       host = 'http://localhost:3001/'
     }
     else{
-      host = '/'
+      host = 'https://myfreeserver.herokuapp.com/'
     }
     console.log('aaaaaaaaaaaaaaaaaaa');
-    axios.get(`${host}minyan`)
+    axios.get(`${host}`)
       .then(function (response) {
         console.log('location.hostname====>>.  ',window.location.hostname);
         console.log('location.====>>.  ',window.location);
         console.log('response==...>>>  ',response);
         response.data.forEach(element => {
-          newShuls.push(<Shul shul={element} />)
+          newShuls.push(/*<Shul shul={element} />*/element)
         })
         setShuls(newShuls)
         
