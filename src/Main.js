@@ -20,7 +20,7 @@ let host;
       host = 'http://localhost:3001/'
     }
     else{
-      host = '/'
+      host = 'https://myfreeserver.herokuapp.com/'
     }
         axios.post(`${host}new`, objInfo)
           .then(function (response) {
