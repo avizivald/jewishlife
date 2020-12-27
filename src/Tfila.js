@@ -17,7 +17,7 @@ function Tfila() {
       host = 'https://myfreeserver.herokuapp.com/'
     }
     console.log('aaaaaaaaaaaaaaaaaaa');
-    axios.get(`${host}`)
+    axios.get(`${host}minyan`)
       .then(function (response) {
         console.log('location.hostname====>>.  ', window.location.hostname);
         console.log('location.====>>.  ', window.location);
