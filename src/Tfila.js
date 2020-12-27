@@ -22,9 +22,9 @@ function Tfila() {
         console.log('location.hostname====>>.  ', window.location.hostname);
         console.log('location.====>>.  ', window.location);
         console.log('response==...>>>  ', response);
-        // response.data.forEach(element => {
-          newShuls.push(/*<Shul shul={element} />*/response.data)
-        // })
+        response.data.forEach(element => {
+          newShuls.push(<Shul shul={element} />)
+        })
         setShuls(newShuls)
 
         // handle success
