@@ -1,0 +1,34 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.8fr 0.8fr;
+    grid-template-rows: 0.8fr 1.5fr 1.4fr 0.4fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "l1 header header r1"
+      "l2 main main r2"
+      "l3 ml mr r3"
+      ". footer footer .";
+  }
+  
+  .main { grid-area: main; }
+  
+  .header { grid-area: header; }
+  
+  .footer { grid-area: footer; }
+  
+  .r2 { grid-area: r2; }
+  
+  .r1 { grid-area: r1; }
+  
+  .r3 { grid-area: r3; }
+  
+  .l1 { grid-area: l1; }
+  
+  .l2 { grid-area: l2; }
+  
+  .l3 { grid-area: l3; }
+  
+  .ml { grid-area: ml; }
+  
+  .mr { grid-area: mr; }
+  
