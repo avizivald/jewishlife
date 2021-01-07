@@ -1,7 +1,8 @@
 import React from 'react';
+import GridTamplet from './utils/GridTamplet';
 function Help() {
-return (
-<div><h1>בקרוב נצא לציבור</h1></div>
-);
+    return (
+        <GridTamplet />
+    );
 }
 export default Help;
