@@ -1,7 +1,7 @@
 .grid-container > div {
 
 background-color: blueviolet;
-min-width: 100px;
+/* min-width: 100px; */
 }
 /* .grid-container > div:nth-child(1) {
   grid-column: 1 / span 2;
