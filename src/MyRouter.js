@@ -23,7 +23,7 @@ function MyRouter() {
                             <Link to="/">תרום מידע</Link>
                         </li>
                         <li>
-                            <Link to="/Help">שידוכים</Link>
+                            <Link to="/Help">(בקרוב)לוח לבתי כנסת</Link>
                         </li>
                         <li>
                             <Link to="/Tfila">תפילה בציבור</Link>
