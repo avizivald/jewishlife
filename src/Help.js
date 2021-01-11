@@ -1,5 +1,5 @@
 import React from 'react';
-import GridTamplet from './utils/GridTamplet';
+import GridTamplet from '../src/utils/GridTamplet';
 function Help() {
     return (
         <GridTamplet />
