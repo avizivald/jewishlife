@@ -9,7 +9,7 @@ function GridTamplet(props) {
   return (
     <div>
       <button onClick={handle.enter}>
-        Enter fullscreen
+         fullscreen
     </button>
 
       <FullScreen handle={handle}>

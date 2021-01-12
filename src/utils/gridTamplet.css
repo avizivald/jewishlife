@@ -27,6 +27,7 @@ background-color: blueviolet;
     "l2 main main r2"
     "l3 main main r3"
     "footer footer footer footer";
+    
 }
 
 .main { grid-area: main;min-width: 200px; }
