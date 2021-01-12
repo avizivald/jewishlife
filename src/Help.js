@@ -1,8 +1,9 @@
 import React from 'react';
-import GridTamplet from './utils/GridTamplet';
+// import GridTamplet from './utils/GridTamplet';
 function Help() {
     return (
-        <GridTamplet />
+        // <GridTamplet />
+        <p>papapapapapapapa</p>
     );
 }
 export default Help;
