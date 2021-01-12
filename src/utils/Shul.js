@@ -9,15 +9,15 @@ const columns = [
   { name: 'ערבית', title: 'ערבית' },
 ];
 function Shul(props) {
-  const {arvit,mincha,shacharit,name}= props.shul
-    const rows = [
-      { שחרית: shacharit, מנחה: mincha, ערבית: arvit },
-    ];
+  const { arvit, mincha, shacharit, name } = props.shul
+  const rows = [
+    { שחרית: shacharit, מנחה: mincha, ערבית: arvit },
+  ];
   // arvit: "צאת, 22:00"
-// id: 1
-// mincha: "שקיעה"
-// name: "בית הכנסת הגדול"
-// shacharit: 
+  // id: 1
+  // mincha: "שקיעה"
+  // name: "בית הכנסת הגדול"
+  // shacharit: 
   return (
     <div className='shul'>
       <h1>{name}</h1>
