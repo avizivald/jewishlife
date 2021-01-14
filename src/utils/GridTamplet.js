@@ -3,7 +3,7 @@ import { FullScreen, useFullScreenHandle } from "react-full-screen";
 import Cell from './Cell';
 import MizrachCell from './MizrachCell'
 import GrayFrame from './GrayFrame'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import './gridTamplet.css';
 
 function GridTamplet(props) {

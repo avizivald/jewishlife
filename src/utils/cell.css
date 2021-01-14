@@ -3,5 +3,24 @@
     height: 100%;
     background-position: center;
     background-size: 100% 100%;
-    position: relative;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
 }
+.cell>div{
+    height: 68%;
+    width: 63%;
+    overflow: scroll;
+    background-color: aqua;
+}
+.any>section{
+animation: floatText 15s infinite linear;
+
+}
+@keyframes floatText {
+    to {
+      transform: translateY(-100%);
+    }
+  }

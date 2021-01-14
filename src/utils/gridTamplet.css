@@ -17,11 +17,11 @@ background-color: blueviolet;
 .grid-container {
   display: grid;
   width:100%;
-  height:100%;
+  height:700px;
   margin: 0 auto;
-  grid-template-columns: 1fr 0.8fr 0.8fr 1fr;
+  grid-template-columns: 20% 30% 30% 20%;
   grid-template-rows: 0.4fr 1.1fr 1.3fr 0.2fr;
-  grid-gap: 3px 3px;
+  grid-gap: 1% 1%;
   grid-template-areas:
     "l1 header header r1"
     "l2 main main r2"
@@ -37,6 +37,13 @@ background-color: blueviolet;
 .footer { grid-area: footer; }
 
 .r1 { grid-area: r1; }
+
+.r2>.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ }
 
 .r2 { grid-area: r2; }
 
