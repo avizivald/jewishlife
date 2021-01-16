@@ -10,14 +10,18 @@
     /* position: relative; */
 }
 .cell>div{
-    height: 68%;
+    height: 68%!important;
     width: 63%;
     overflow: scroll;
     background-color: aqua;
 }
-.any>section{
-animation: floatText 15s infinite linear;
+.section1>p{font-size: 6vw;}
+.any>.section1{
+  text-align: center;
 
+animation: floatText 45s infinite linear;
+position: relative;
+top: 100%;
 }
 @keyframes floatText {
     to {
