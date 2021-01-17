@@ -24,13 +24,31 @@ background-color: blueviolet;
   grid-gap: 1% 1%;
   grid-template-areas:
     "l1 header header r1"
-    "l2 main main r2"
-    "l3 main main r3"
+    "l2 mainOfGA mainOfGA r2"
+    "l3 mainOfGA mainOfGA r3"
     "footer footer footer footer";
     
 }
 
-.main { grid-area: main;min-width: 200px; }
+.mainOfGA { grid-area: mainOfGA;min-width: 200px;
+  text-align: center;
+  font-family: david;
+  /* background-image: url('../images//candle.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.6; */
+
+  padding: 70px 0;
+
+}
+.mainOfGA h1{
+  display:inline
+}
+.mainOfGA h2{
+  display:inline
+}
 
 .header1 { grid-area: header; }
 

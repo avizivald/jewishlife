@@ -2,7 +2,7 @@ import React from 'react';
 import { FullScreen, useFullScreenHandle } from "react-full-screen";
 import Cell from './Cell';
 import MizrachCell from './MizrachCell'
-import GrayFrame from './GrayFrame'
+import TextArea from './TextArea'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './gridTamplet.css';
 
@@ -16,7 +16,7 @@ function GridTamplet(props) {
 
       <FullScreen handle={handle}>
         <div className="grid-container">
-          <div className="main"><Cell/></div>
+          <div className="mainOfGA"><TextArea/></div>
           <div className="header1"><MizrachCell/></div>
           <div className="footer">footer</div>
           <div className="r1"><Cell/></div>
