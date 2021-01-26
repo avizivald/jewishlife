@@ -15,7 +15,7 @@
     overflow: scroll;
     background-color: aqua;
 }
-.section1>p{font-size: 6vw;}
+/* .section1>p{font-size: 6vw;} */
 .any>.section1{
   text-align: center;
 

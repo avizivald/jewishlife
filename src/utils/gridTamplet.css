@@ -1,6 +1,8 @@
+*{  text-align: center;
+}
 .grid-container > div {
 
-background-color: blueviolet;
+background-color: #dabb6d;
 /* min-width: 100px; */
 }
 /* .grid-container > div:nth-child(1) {
@@ -43,10 +45,10 @@ background-color: blueviolet;
   padding: 70px 0;
 
 }
-.mainOfGA h1{
+.grid-container h1{
   display:inline
 }
-.mainOfGA h2{
+.grid-container h2{
   display:inline
 }
 

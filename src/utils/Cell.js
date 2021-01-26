@@ -6,7 +6,7 @@ import './cell.css';
 
 function Cell(props) {
     // const { arvit, mincha, shacharit, name } = props.
-    let title = <h1>לעילוי נשמת</h1>
+    let title = <h2>לעילוי נשמת</h2>
    let content = <p>  וחבל על דאבדיןנלבע יט חשוון התשלא</p>
     return (
         <div className='cell'>

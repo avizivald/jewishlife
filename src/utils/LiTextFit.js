@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactFitText from 'react-fittext';
+// import ReactFitText from 'react-fittext';
 
 import './cell.css';
 
@@ -7,9 +7,9 @@ import './cell.css';
 function LiTextFit(props) {
     const text = props.text
 
-    return (<ReactFitText className="section1">
+    return (<section className="section1">
         {text}
-    </ReactFitText>
+    </section>
 
     );
 }
