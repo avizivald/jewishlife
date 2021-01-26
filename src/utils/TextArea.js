@@ -16,7 +16,7 @@ function TextArea(props) {
             
             thiss.style.fontSize= Math.round(size)*2+'px';
         } else {
-            thiss.style.fontSize= Math.round(size)*1.2+'px';
+            thiss.style.fontSize= Math.round(size)*1.9+'px';
             
         }
         // thiss.style.h1 = {}
