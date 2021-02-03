@@ -12,11 +12,11 @@ function TextArea(props) {
     function click() {
         console.log('width',thiss.getBoundingClientRect().width);
         let size = thiss.getBoundingClientRect().width /50;
-        if (thiss.getBoundingClientRect().width > 700) {
+        if (thiss.getBoundingClientRect().width > 600) {
             
-            thiss.style.fontSize= Math.round(size)*2+'px';
+            thiss.style.fontSize= Math.round(size)*2.3+'px';
         } else {
-            thiss.style.fontSize= Math.round(size)*1.9+'px';
+            thiss.style.fontSize= Math.round(size)*4+'px';
             
         }
         // thiss.style.h1 = {}

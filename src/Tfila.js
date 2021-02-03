@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Shul from './utils/Shul';
+import Zman from './utils/Zman'
 const axios = require('axios');
 
 function Tfila() {
@@ -44,6 +45,7 @@ function Tfila() {
       <button onClick={ax}>ax</button>
       {/* <button onClick={a}>set</button> */}
       {shuls}
+      <Zman/>
     </div>
   );
 }
