@@ -9,6 +9,7 @@ import {
 import Main from './Main';
 import Help from './Help';
 import Tfila from './Tfila';
+import Connect from './connect/Connect'
 function MyRouter() {
     return (
         <div className='MyRouter'>
@@ -21,6 +22,9 @@ function MyRouter() {
                         </li>
                         <li>
                             <Link to="/">תרום מידע</Link>
+                        </li>
+                        <li>
+                            <Link to="/connect">התחבר למערכת הלוח</Link>
                         </li>
                         <li>
                             <Link to="/Help">(בקרוב)לוח לבתי כנסת</Link>
@@ -36,6 +40,9 @@ function MyRouter() {
                     </Route>
                     <Route path="/Tfila">
                         <Tfila />
+                    </Route>
+                    <Route path="/connect">
+                        <Connect />
                     </Route>
                     <Route path="/Help">
                         <Help />

@@ -26,6 +26,16 @@ let createTableMinyanim = `CREATE TABLE IF NOT EXISTS minyanim (
    PRIMARY KEY  (id)
 
 );`
+let createTableGabahim = `CREATE TABLE IF NOT EXISTS gabahim (
+
+  id int(11) NOT NULL auto_increment,   
+  gabainame varchar(250)  NOT NULL default '',     
+  gabaimail varchar(250)  NOT NULL default '',     
+  gabaiid  varchar(250) NOT NULL default '',
+   PRIMARY KEY  (id)
+
+);`
+let select = `SELECT * FROM gabahim WHERE gabaiid = `
 function sendMyData() {
   console.log('dataaaaaaa',data);
   return data
@@ -37,6 +47,31 @@ function CreateQuery(name, shacharit, mincha, arvit) {
   return new Promise((resolve, reject) => {
     console.log("insertQuery  ===>>>> ", insertQuery);
     connection.query(insertQuery, (error, results, fields) => {
+      // error will be an Error if one occurred during the query
+      if (error) return reject(error);
+      // results will contain the results of the query
+      resolve(results);
+    });
+  });
+}
+async function CreateQueryGabai (gabainame, gabaimail, gabaiid) {
+ await createTable(createTableGabahim);
+  let insertQuery = `INSERT INTO gabahim (gabainame, gabaimail, gabaiid) VALUES ("${gabainame}","${gabaimail}","${gabaiid}")`
+  return new Promise((resolve, reject) => {
+    console.log("insertQuery  ===>>>> ", insertQuery);
+    connection.query(insertQuery, (error, results, fields) => {
+      // error will be an Error if one occurred during the query
+      if (error) return reject(error);
+      // results will contain the results of the query
+      resolve(results);
+    });
+  });
+}
+async function CreateQuerySelectGabai ( gabaiid) {
+  let selectQuery = `${select}'${gabaiid}'`
+  return new Promise((resolve, reject) => {
+    console.log("selectQuery  ===>>>> ", selectQuery);
+    connection.query(selectQuery, (error, results, fields) => {
       // error will be an Error if one occurred during the query
       if (error) return reject(error);
       // results will contain the results of the query
@@ -80,4 +115,5 @@ async function getMinyanim() {
   });
 
 };
-module.exports = { a: getMinyanim, b: sendMyData, c: CreateQuery };
+module.exports = { a: getMinyanim, b: sendMyData, c: CreateQuery ,
+   d: CreateQueryGabai , CreateQuerySelectGabai:CreateQuerySelectGabai };

@@ -1,17 +1,16 @@
 
 .MyInput{
    height: 40px;
-   width: 200px;
+   width: 160px;
    border: none;
    font-size: large;
     background: rgb(241, 226, 229);
 }
 .inputBox{
     float: right;
-
-    margin: 1px;
     height: 80px;
-    width: 220px; 
+    width: 200px;
+    margin: auto;
     background: rgba(224, 233, 233, 0.842);
 }
 p{
