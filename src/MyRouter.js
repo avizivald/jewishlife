@@ -27,7 +27,7 @@ function MyRouter() {
                             <Link to="/connect">התחבר למערכת הלוח</Link>
                         </li>
                         <li>
-                            <Link to="/Help">(בקרוב)לוח לבתי כנסת</Link>
+                            <Link to="/Help">דוגמא ללוח</Link>
                         </li>
                         <li>
                             <Link to="/Tfila">תפילה בציבור</Link>

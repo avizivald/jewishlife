@@ -1,9 +1,12 @@
 .MyRouter{
     /* background: rgb(187, 187, 230); */
 }
+.header li:hover {
+    background-color: rgb(233, 233, 218);
+  }
 .header{
 background: rgb(219, 212, 212);
-
+font-size: 30px;
 position: sticky;
 height: 98px;
 
@@ -29,7 +32,7 @@ li{
 }
 
 li a{
-    font-size: 40px;
+    font-size: 30px;
     position: relative;
     top: 27%;
     text-decoration: none;
@@ -51,7 +54,7 @@ li.logo{
         right: 30px;
         color: red;
         font-weight: bolder;
-        font-size: 40px;
+        font-size: 30px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     
     }
@@ -68,7 +71,7 @@ li.logo{
     
     }
     li a{
-        font-size: 40px;
+        font-size: 30px;
         position: relative;
         top: 27%;
         text-decoration: none;
@@ -87,9 +90,11 @@ li.logo{
     
     }
     li a{
-        font-size: 40px;
+        font-size: 30px;
         position: relative;
         top: 27%;
+        float: right;
+
         text-decoration: none;
         margin: 0
     }
@@ -106,11 +111,13 @@ li.logo{
     
     }
     li a{
-        font-size: 40px;
+        font-size: 20px;
         position: relative;
         top: 27%;
         text-decoration: none;
-        margin: 0
+        margin: 0;
+        float: right;
+
     }
   }
 @media (max-width: 839px) and (min-width:680px){
@@ -125,10 +132,12 @@ li.logo{
     
     }
     li a{
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bolder;
         position: relative;
         top: 27%;
+        float: right;
+
         text-decoration: none;
         margin: 0
     }
@@ -145,7 +154,7 @@ li.logo{
     
     }
     li a{
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bolder;
         position: relative;
         top: 27%;
@@ -164,7 +173,8 @@ li.logo{
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     li a{
-        font-size: 25px;
+        font-size: 20px;
+        float: right;
         font-weight: bolder;
         position: relative;
         top: 27%;
