@@ -1,6 +1,7 @@
 import React ,{useState} from 'react';
 import './Main.css';
 import MyInput from './utils/MyInput';
+import TextArea from './utils/TextArea'
 const axios = require('axios');
 
 // import insertNewSynagogue from './server/insertNewSynagogue'
@@ -32,17 +33,18 @@ let host;
     }
     
     return (
-        <div className='main'>
-            <h1>Man</h1>
-            <div className='forminput'>
-            <MyInput  name={'name'} onChange ={setObjInfoByChange} title={'enter Synagogue name'} placeholder={'enter Synagogue name'} />
-            <MyInput  name={'shacharit'} onChange ={setObjInfoByChange} title={'enter shacharit time'} placeholder={'enter shacharit time'} />
-            <MyInput  name={'mincha'} onChange ={setObjInfoByChange} title={'enter mincha time'} placeholder={'enter mincha time'} />
-            <MyInput  name={'arvit'} onChange ={setObjInfoByChange} title={'enter arvit time'} placeholder={'enter arvit time'} />
-            <button onClick={send}>send</button>
+        // <div className='main'>
+        //     <h1>Man</h1>
+        //     <div className='forminput'>
+        //     <MyInput  name={'name'} onChange ={setObjInfoByChange} title={'enter Synagogue name'} placeholder={'enter Synagogue name'} />
+        //     <MyInput  name={'shacharit'} onChange ={setObjInfoByChange} title={'enter shacharit time'} placeholder={'enter shacharit time'} />
+        //     <MyInput  name={'mincha'} onChange ={setObjInfoByChange} title={'enter mincha time'} placeholder={'enter mincha time'} />
+        //     <MyInput  name={'arvit'} onChange ={setObjInfoByChange} title={'enter arvit time'} placeholder={'enter arvit time'} />
+        //     <button onClick={send}>send</button>
            
-            </div>
-        </div>
+        //     </div>
+        // </div>
+        <TextArea/>
     );
 }
 export default Main;

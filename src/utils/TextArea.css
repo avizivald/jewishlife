@@ -1,6 +1,12 @@
 .TextAreaHtml{
     padding-top: 0.5%;
 }
-.l2 .TextAreaHtml{
+ .TextAreaHtml{
     font-family: david;
+  /* display:inline */
+
+}
+ .TextAreaHtml h1{
+  display:inline
+
 }

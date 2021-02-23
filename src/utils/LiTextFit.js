@@ -7,7 +7,7 @@ import './cell.css';
 function LiTextFit(props) {
     const text = props.text
 
-    return (<section className="section1">
+    return (<section >
         {text}
     </section>
 

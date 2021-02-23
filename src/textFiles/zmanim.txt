@@ -1,0 +1,360 @@
+{
+    "עלות השחר":"AlosHashachar",
+    "זמן ציצית":"Misheyakir11Point5Degrees",
+    "נץ החמה":"Sunrise",
+    "סוף זמן קש מגא":"SofZmanShmaMGA16Point1Degrees",
+    "סוף זמן קש גרא":"SofZmanShmaGRA",
+    "חצות":"Chatzos",
+    "מנחה גדולה":"MinchaGedola30Minutes",
+    "פלג המנחה":"PlagHamincha",
+    "שקיעה":"Sunset",
+    "צאת הכוכבים":"Tzais",
+    "רבינו תם":"Tzais72",
+}
+0 = Alos120: 04:14 am
+
+1 = Alos26Degrees: 04:15 am
+
+2 = Alos120Zmanis: 04:21 am
+
+3 = Alos96: 04:38 am
+
+4 = Alos96Zmanis: 04:43 am
+
+5 = Alos90: 04:44 am
+
+6 = Alos19Point8Degrees: 04:44 am
+
+7 = Alos19Degrees: 04:48 am
+
+8 = Alos90Zmanis: 04:49 am
+
+9 = Alos18Degrees: 04:52 am
+
+10 = BeginAstronomicalTwilight: 04:52 am
+
+11 = AlosBaalHatanya: 04:57 am
+
+12 = Alos16Point1Degrees: 05:01 am
+
+13 = AlosHashachar: 05:01 am
+
+14 = Alos72: 05:02 am
+
+15 = Alos72Zmanis: 05:06 am
+
+16 = Alos60: 05:14 am
+
+17 = BeginNauticalTwilight: 05:20 am
+
+18 = Misheyakir11Point5Degrees: 05:23 am
+
+19 = Misheyakir11Degrees: 05:25 am
+
+20 = Misheyakir10Point2Degrees: 05:29 am
+
+21 = Misheyakir9Point5Degrees: 05:32 am
+
+22 = Misheyakir7Point65Degrees: 05:41 am
+
+23 = BeginCivilTwilight: 05:49 am
+
+24 = SeaLevelSunrise: 06:14 am
+
+25 = Sunrise: 06:14 am
+
+26 = SofZmanShmaMGA120Minutes: 08:03 am
+
+27 = SofZmanShmaAlos16Point1ToSunset: 08:09 am
+
+28 = SofZmanShmaMGA96Minutes: 08:15 am
+
+29 = SofZmanShmaAlos16Point1ToTzaisGeonim7Point083Degrees: 08:16 am
+
+30 = SofZmanShmaMGA96MinutesZmanis: 08:18 am
+
+31 = SofZmanShmaMGA90Minutes: 08:18 am
+
+32 = SofZmanShmaMGA19Point8Degrees: 08:18 am
+
+33 = SofZmanShmaMGA90MinutesZmanis: 08:21 am
+
+34 = SofZmanShmaAteretTorah: 08:22 am
+
+35 = SofZmanShmaMGA18Degrees: 08:22 am
+
+36 = SofZmanShmaMGA16Point1Degrees: 08:27 am
+
+37 = SofZmanShmaMGA: 08:27 am
+
+38 = SofZmanShmaMGA72Minutes: 08:27 am
+
+39 = SofZmanShmaMGA72MinutesZmanis: 08:29 am
+
+40 = SofZmanShmaFixedLocal: 08:39 am
+
+41 = SofZmanShma3HoursBeforeChatzos: 08:52 am
+
+42 = SofZmanShmaKolEliyahu: 08:56 am
+
+43 = SofZmanShmaBaalHatanya: 09:01 am
+
+44 = SofZmanShmaGRA: 09:03 am
+
+45 = SofZmanTfilaMGA120Minutes: 09:19 am
+
+46 = SofZmanTfilaMGA96Minutes: 09:27 am
+
+47 = SofZmanTfilahAteretTorah: 09:28 am
+
+48 = SofZmanTfilaMGA96MinutesZmanis: 09:29 am
+
+49 = SofZmanTfilaMGA90Minutes: 09:29 am
+
+50 = SofZmanTfilaMGA19Point8Degrees: 09:30 am
+
+51 = SofZmanTfilaMGA90MinutesZmanis: 09:31 am
+
+52 = SofZmanTfilaMGA18Degrees: 09:32 am
+
+53 = SofZmanAchilasChametzMGA16Point1Degrees: 09:35 am
+
+54 = SofZmanTfilaMGA16Point1Degrees: 09:35 am
+
+55 = SofZmanAchilasChametzMGA72Minutes: 09:35 am
+
+56 = SofZmanTfilaMGA: 09:35 am
+
+57 = SofZmanTfilaMGA72Minutes: 09:35 am
+
+58 = SofZmanTfilaMGA72MinutesZmanis: 09:37 am
+
+59 = SofZmanTfilaFixedLocal: 09:39 am
+
+60 = SofZmanTfila2HoursBeforeChatzos: 09:52 am
+
+61 = SofZmanAchilasChametzBaalHatanya: 09:58 am
+
+62 = SofZmanTfilaBaalHatanya: 09:58 am
+
+63 = SofZmanAchilasChametzGRA: 09:59 am
+
+64 = SofZmanTfilaGRA: 09:59 am
+
+65 = SofZmanBiurChametzMGA16Point1Degrees: 10:44 am
+
+66 = SofZmanBiurChametzMGA72Minutes: 10:44 am
+
+67 = SofZmanBiurChametzBaalHatanya: 10:55 am
+
+68 = SofZmanBiurChametzGRA: 10:56 am
+
+69 = FixedLocalChatzos: 11:39 am
+
+70 = Chatzos: 11:52 am
+
+71 = SunTransit: 11:52 am
+
+72 = MinchaGedolaAteretTorah: 12:11 pm
+
+73 = MinchaGedola: 12:21 pm
+
+74 = MinchaGedolaBaalHatanya: 12:21 pm
+
+75 = MinchaGedola30Minutes: 12:22 pm
+
+76 = MinchaGedolaBaalHatanyaGreaterThan30: 12:22 pm
+
+77 = MinchaGedolaGreaterThan30: 12:22 pm
+
+78 = MinchaGedola72Minutes: 12:27 pm
+
+79 = MinchaGedola16Point1Degrees: 12:27 pm
+
+80 = MinchaKetana: 03:10 pm
+
+81 = MinchaKetanaBaalHatanya: 03:12 pm
+
+82 = MinchaKetanaAteretTorah: 03:27 pm
+
+83 = MinchaKetana72Minutes: 03:52 pm
+
+84 = MinchaKetana16Point1Degrees: 03:52 pm
+
+85 = PlagAlosToSunset: 04:13 pm
+
+86 = PlagHamincha: 04:21 pm
+
+87 = PlagHaminchaBaalHatanya: 04:23 pm
+
+88 = PlagAlos16Point1ToTzaisGeonim7Point083Degrees: 04:40 pm
+
+89 = PlagHaminchaAteretTorah: 04:49 pm
+
+90 = PlagHamincha60Minutes: 05:08 pm
+
+91 = BainHasmashosYereim2Point99Degrees: 05:12 pm
+
+92 = BainHasmashosYereim18Minutes: 05:13 pm
+
+93 = CandleLighting: 05:13 pm
+
+94 = BainHasmashosYereim2Point8Degrees: 05:14 pm
+
+95 = PlagHamincha72MinutesZmanis: 05:14 pm
+
+96 = BainHasmashosYereim16Point875Minutes: 05:14 pm
+
+97 = BainHasmashosYereim2Point1Degrees: 05:17 pm
+
+98 = PlagHamincha72Minutes: 05:18 pm
+
+99 = BainHasmashosYereim13Point5Minutes: 05:18 pm
+
+100 = PlagHamincha16Point1Degrees: 05:18 pm
+
+101 = PlagHamincha18Degrees: 05:25 pm
+
+102 = PlagHamincha90MinutesZmanis: 05:28 pm
+
+103 = SeaLevelSunset: 05:31 pm
+
+104 = Sunset: 05:31 pm
+
+105 = PlagHamincha19Point8Degrees: 05:32 pm
+
+106 = PlagHamincha90Minutes: 05:32 pm
+
+107 = PlagHamincha96MinutesZmanis: 05:32 pm
+
+108 = PlagHamincha96Minutes: 05:37 pm
+
+109 = TzaisGeonim3Point65Degrees: 05:45 pm
+
+110 = TzaisGeonim3Point676Degrees: 05:45 pm
+
+111 = TzaisGeonim3Point7Degrees: 05:45 pm
+
+112 = TzaisGeonim3Point8Degrees: 05:45 pm
+
+113 = BainHasmashosRT13Point5MinutesBefore7Point083Degrees: 05:47 pm
+
+114 = TzaisGeonim4Point37Degrees: 05:48 pm
+
+115 = TzaisGeonim4Point61Degrees: 05:49 pm
+
+116 = PlagHamincha120MinutesZmanis: 05:50 pm
+
+117 = TzaisGeonim4Point8Degrees: 05:50 pm
+
+118 = PlagHamincha26Degrees: 05:55 pm
+
+119 = TzaisGeonim5Point88Degrees: 05:55 pm
+
+120 = PlagHamincha120Minutes: 05:56 pm
+
+121 = TzaisGeonim5Point95Degrees: 05:56 pm
+
+122 = EndCivilTwilight: 05:56 pm
+
+123 = TzaisBaalHatanya: 05:56 pm
+
+124 = BainHasmashosRT2Stars: 05:56 pm
+
+125 = TzaisGeonim6Point45Degrees: 05:58 pm
+
+126 = TzaisGeonim7Point083Degrees: 06:01 pm
+
+127 = TzaisGeonim7Point67Degrees: 06:04 pm
+
+128 = Tzais: 06:08 pm
+
+129 = TzaisGeonim8Point5Degrees: 06:08 pm
+
+130 = TzaisAteretTorah: 06:11 pm
+
+131 = TzaisGeonim9Point3Degrees: 06:11 pm
+
+132 = TzaisGeonim9Point75Degrees: 06:14 pm
+
+133 = EndNauticalTwilight: 06:24 pm
+
+134 = BainHasmashosRT58Point5Minutes: 06:30 pm
+
+135 = BainHasmashosRT13Point24Degrees: 06:30 pm
+
+136 = Tzais60: 06:31 pm
+
+137 = Tzais72Zmanis: 06:39 pm
+
+138 = Tzais72: 06:43 pm
+
+139 = Tzais16Point1Degrees: 06:44 pm
+
+140 = EndAstronomicalTwilight: 06:52 pm
+
+141 = Tzais18Degrees: 06:52 pm
+
+142 = Tzais90Zmanis: 06:56 pm
+
+143 = Tzais19Point8Degrees: 07:01 pm
+
+144 = Tzais90: 07:01 pm
+
+145 = Tzais96Zmanis: 07:01 pm
+
+146 = Tzais96: 07:07 pm
+
+147 = Tzais120Zmanis: 07:24 pm
+
+148 = Tzais26Degrees: 07:30 pm
+
+149 = Tzais120: 07:31 pm
+
+150 = SolarMidnight: 11:52 pm
+
+151 = ShaahZmanisGra: Invalid date
+
+152 = TemporalHour: Invalid date
+
+153 = ShaahZmanisBaalHatanya: Invalid date
+
+154 = ShaahZmanisAteretTorah: Invalid date
+
+155 = ShaahZmanis60Minutes: Invalid date
+
+156 = ShaahZmanis72MinutesZmanis: Invalid date
+
+157 = ShaahZmanis72Minutes: Invalid date
+
+158 = ShaahZmanisMGA: Invalid date
+
+159 = ShaahZmanis16Point1Degrees: Invalid date
+
+160 = ShaahZmanis18Degrees: Invalid date
+
+161 = ShaahZmanis90MinutesZmanis: Invalid date
+
+162 = ShaahZmanis19Point8Degrees: Invalid date
+
+163 = ShaahZmanis90Minutes: Invalid date
+
+164 = ShaahZmanis96MinutesZmanis: Invalid date
+
+165 = ShaahZmanis96Minutes: Invalid date
+
+166 = ShaahZmanis120MinutesZmanis: Invalid date
+
+167 = ShaahZmanis26Degrees: Invalid date
+
+168 = ShaahZmanis120Minutes: Invalid date
+
+169 = SofZmanKidushLevana15Days: Invalid date
+
+170 = SofZmanKidushLevanaBetweenMoldos: Invalid date
+
+171 = TchilasZmanKidushLevana3Days: Invalid date
+
+172 = TchilasZmanKidushLevana7Days: Invalid date
+
+173 = ZmanMolad: Invalid date

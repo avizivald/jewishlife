@@ -12,7 +12,7 @@ import Tfila from './Tfila';
 import Connect from './connect/Connect'
 function MyRouter() {
     return (
-        <div className='MyRouter'>
+        // <div className='MyRouter'>
 
             <Router>
                 <header className='header'>
@@ -49,7 +49,7 @@ function MyRouter() {
                     </Route>
                 </Switch>
             </Router>
-        </div>
+        // </div>
     );
 }
 export default MyRouter;

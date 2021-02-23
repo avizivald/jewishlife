@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import './Connect.css';
 import Help from '../Help';
+import {getStringsByLanguages} from '../strings/getStringsByLanguages'
 
 // import FacebookLogin from 'react-facebook-login';
 
@@ -58,6 +59,8 @@ function Connect() {
   }
 let show = user ? <Help/> :   <div className="Connect">
 <section className='connectdiv'>
+  {getStringsByLanguages('אנא התחבר לאתר','fr')}
+
   <h1>You can connect with Google</h1>
   <GoogleLogin
     clientId="449810030569-5pn3veirrku9kahs3k0im1v9k4tigjde.apps.googleusercontent.com" //CLIENTID NOT CREATED YET

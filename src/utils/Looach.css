@@ -1,0 +1,19 @@
+.Looach p span{
+    position: relative;
+    color: red;
+    top: 0px;
+    right: 4px;
+    font-weight: bolder;
+    text-align:left;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+.Looach p {
+    text-align:right;
+}
+.Looach{
+    overflow: scroll;
+    margin: 13px;
+    max-height: 100%;
+    font-size: 22px;
+    /* text-align: center; */}

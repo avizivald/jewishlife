@@ -6,11 +6,12 @@ import TextArea from './TextArea';
 import Clock from './Clock'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './gridTamplet.css';
+import Looach from './Looach';
 
 function GridTamplet(props) {
   const handle = useFullScreenHandle();
   return (
-    <div>
+    <section>
       <button onClick={handle.enter}>
          fullscreen
     </button>
@@ -25,10 +26,10 @@ function GridTamplet(props) {
           <div className="r3">r3</div>
           <div className="l1"><Clock/></div>
           <div className="l2"><TextArea /></div>
-          <div className="l3">l3</div>
+          <div className="l3"><Looach/></div>
         </div>
       </FullScreen>
-    </div>
+    </section>
 
 
   );
