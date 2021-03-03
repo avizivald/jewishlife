@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import Shul from './utils/Shul';
-import Zman from './utils/Zman'
+import Zman from './utils/Zman';
+import { connect } from 'react-redux';
+
 const axios = require('axios');
 
-function Tfila() {
+function Tfila(props) {
+  console.log('pppppppvppppp\n0',props);
   let newShuls = [];
   const [shuls, setShuls] = useState([]);
   function a() {
@@ -45,8 +48,15 @@ function Tfila() {
       <button onClick={ax}>ax</button>
       {/* <button onClick={a}>set</button> */}
       {shuls}
+      {props.listOfDaysZmanim}
       <Zman/>
     </div>
   );
 }
-export default Tfila;
+const mapStateToProps = state =>{
+  console.log('mapStateToProps',state);
+  return {
+    listOfDaysZmanim : state.listOfDaysZmanim
+  }
+} 
+export default connect(mapStateToProps)(Tfila);

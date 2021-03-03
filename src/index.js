@@ -4,10 +4,31 @@ import './index.css';
 // import App from './App';
 import MyRouter from './MyRouter';
 import reportWebVitals from './reportWebVitals';
+import {createStore} from 'redux'
+import {Provider} from 'react-redux';
+const initState = {
+  listOfDaysZmanim:[]
+};
+const reduser = (state = initState,action)=>{
+  switch (action.type) {
+    case "ADD_LIST" :
+      state = {...state, listOfDaysZmanim : action.payload};
+
+      break;
+  
+    default:
+      break;
+  }
+  return state;
+
+}
+const store = createStore(reduser);
 
 ReactDOM.render(
   <React.StrictMode>
+    <Provider store={store}>
     <MyRouter />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
