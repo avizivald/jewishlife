@@ -10,7 +10,9 @@ function Cell(props) {
    let content = <p>  וחבל על דאבדיןנלבע יט חשוון התשלא</p>
     return (
         <div className='cell'>
-            <div className='any'><div className="section1">
+            <section className='titleofcell'>פרנס היום</section>
+            <div className='any'>
+                <div className="section1">
                 <LiTextFit text={title} />
                 <LiTextFit text={content} />
                 <LiTextFit text={title} />
@@ -21,7 +23,8 @@ function Cell(props) {
                 <LiTextFit text={content} />
                 <LiTextFit text={title} />
                 <LiTextFit text={content} />
-            </div></div>
+            </div>
+            </div>
         </div>
 
     );

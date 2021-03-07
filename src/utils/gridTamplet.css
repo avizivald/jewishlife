@@ -61,7 +61,6 @@ background-color: #dabb6d;
 .r1 { grid-area: r1; }
 
 .r2>.cell {
-  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;

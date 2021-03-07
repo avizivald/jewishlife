@@ -4,17 +4,25 @@
     background-position: center;
     background-size: 100% 100%;
     padding: 2px;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     /* position: relative; */
 }
 .cell>div{
-    height: 68%!important;
-    width: 63%;
-    overflow: scroll;
-    background-color: aqua;
+  position: relative;
+  height: 69%!important;
+  width: 66%;
+  overflow: scroll;
+  background-color: aqua;
+  top: 10%;
+  right: -16%;
 }
+.titleofcell{font-size: 76%;
+  color: #161715;
+  position: relative;
+  font-weight: 700;
+  top: 6%;}
 /* .section1>p{font-size: 6vw;} */
 .any>.section1{
   text-align: center;
