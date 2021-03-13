@@ -2,11 +2,73 @@ import React ,{useState} from 'react';
 import './Main.css';
 import MyInput from './utils/MyInput';
 import TextArea from './utils/TextArea'
+import {HebrewCalendar,Zmanim, HDate, Location,DafYomi, Event} from '@hebcal/core';
+
 const axios = require('axios');
 
 // import insertNewSynagogue from './server/insertNewSynagogue'
 // path.join(__dirname, '../static/index.html')
 function Main() {
+  const options = {
+    year: 5781,
+    isHebrewYear: true,
+    candlelighting: true,
+    location: Location.lookup('San Francisco'),
+    sedrot: true,
+    omer: true,
+  };
+  // const zmanim =new Zmanim(new Date(),31.768319,35.21371);
+  // console.log('zmanim\n\n',zmanim);
+  const daf = new DafYomi(new Date());
+  console.log('daf\n',daf.getName());
+  console.log('dafgetBlatt\n',daf.getBlatt());
+//    let list =  ['sunrise','sunset','dawn','dusk','hour','hourMins','gregEve','nightHour',
+// 'nightHourMins',
+// 'chatzot' ,
+// 'chatzotNight',
+// 'alotHaShachar' ,
+// 'misheyakir',
+// 'misheyakirMachmir',
+// 'sofZmanShma',
+// 'sofZmanTfilla',
+// 'minchaGedola' ,
+// 'minchaKetana' ,
+// 'plagHaMincha',
+// 'neitzHaChama',
+// 'shkiah' ];
+// list.forEach(element => {
+//   console.log(`${element} is ==>`,  zmanim[element]());
+// });
+/*
+  .sunrise() //⇒ Date
+.sunset() //⇒ Date
+.dawn() //⇒/ Date
+.dusk() //;⇒ Date
+.hour() ;//⇒ number
+.hourMins() ⇒ number
+.gregEve() ⇒ Date
+
+.sunsetOffset(offset) ⇒ Date
+.sunsetOffsetTime(offset, timeFormat) ⇒ Array.<Object>
+.tzeitTime(angle, timeFormat) ⇒ Array.<Object>
+static
+.formatTime(dt, timeFormat) ⇒ string
+.roundTime(dt) ⇒ Date
+.timeZoneOffset(tzid, date) ⇒ string
+.formatISOWithTimeZone(tzid, date) ⇒ string
+  */
+  const events = HebrewCalendar.calendar();
+  let mydata =new HDate();
+  // console.log('HDate\n',mydata.render('he'))
+  // console.log('HDate\n',mydata.renderGematriya())
+  let counter =0;
+  for (const ev of events) {
+    counter ++;
+    const hd = ev.getDate();
+    const date = hd.greg();
+    console.log( counter,'\n','ev\n',ev,'\n',date.toLocaleDateString(), ev.render(), hd.toString());
+  }
+  
     const [objInfo,setObjInfo] = useState({});
     function setObjInfoByChange(e){
         setObjInfo({...objInfo,[e.target.name]:e.target.value});
@@ -44,7 +106,7 @@ let host;
            
         //     </div>
         // </div>
-        <TextArea/>
+        <TextArea id={'mainatext'}/>
     );
 }
 export default Main;

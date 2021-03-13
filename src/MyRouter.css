@@ -4,6 +4,14 @@
 .header li:hover {
     background-color: rgb(233, 233, 218);
   }
+ 
+.bg-light {
+    background-color: #f8f9fa!important;
+    margin-top: 10px;
+    font-weight: 700;
+    /* font-size: 15px; */
+}
+
 .header{
 background: rgb(219, 212, 212);
 font-size: 30px;
@@ -38,7 +46,7 @@ li a{
     text-decoration: none;
     margin: 0
 }
-li.logo{
+.logo{
     min-height: 100px;
     background-image: url('./images/kotel.jpg');
     background-size: contain;
@@ -48,27 +56,34 @@ li.logo{
     
 }
 @media (min-width: 1300px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(226 20 20 / 50%);
+        min-width: 54.5%;
+    }
     span{
         position: absolute;
-        top:3px;
-        right: 30px;
-        color: red;
-        font-weight: bolder;
-        font-size: 30px;
+        top: 11px;
+        right: 63px;
+        color: #f8f9fa;
+        /* top: 3px; */
+        font-size: 135%;
         font-family: Georgia, 'Times New Roman', Times, serif;
+}
     
-    }
   }
 @media (max-width: 1299px) and (min-width:1200px){
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(226 20 20 / 50%);
+        min-width: 56.5%;
+    }
     span{
         position: absolute;
-        top:3px;
-        right: 50px;
-        color: red;
-        font-weight: bolder;
-        font-size: 30px;
+        top: 11px;
+        right: 63px;
+        color: #f8f9fa;
+        /* top: 3px; */
+        font-size: 135%;
         font-family: Georgia, 'Times New Roman', Times, serif;
-    
     }
     li a{
         font-size: 30px;
@@ -79,15 +94,18 @@ li.logo{
     }
   }
 @media (max-width: 1199px) and (min-width:1020px){
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(226 20 20 / 50%);
+        min-width: 56.5%;
+    }
     span{
         position: absolute;
-        top:3px;
-        right: 30px;
-        color: red;
-        font-weight: bolder;
-        font-size: 30px;
+        top: 11px;
+        right: 63px;
+        color: #f8f9fa;
+        /* top: 3px; */
+        font-size: 135%;
         font-family: Georgia, 'Times New Roman', Times, serif;
-    
     }
     li a{
         font-size: 30px;
@@ -100,15 +118,18 @@ li.logo{
     }
   }
 @media (max-width: 1019px) and (min-width:840px){
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(226 20 20 / 50%);
+        min-width: 40.5%;
+    }
     span{
         position: absolute;
-        top:3px;
-        right: 10px;
-        color: red;
-        font-weight: bolder;
-        font-size: 20px;
+        top: 11px;
+        right: 26px;
+        color: #f8f9fa;
+        /* top: 3px; */
+        font-size: 135%;
         font-family: Georgia, 'Times New Roman', Times, serif;
-    
     }
     li a{
         font-size: 20px;
@@ -121,15 +142,18 @@ li.logo{
     }
   }
 @media (max-width: 839px) and (min-width:680px){
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(226 20 20 / 50%);
+        min-width: 56.5%;
+    }
     span{
         position: absolute;
-        top:3px;
-        right: 10px;
-        color: red;
-        font-weight: bolder;
-        font-size: 20px;
+        top: 11px;
+        right: 63px;
+        color: #f8f9fa;
+        /* top: 3px; */
+        font-size: 135%;
         font-family: Georgia, 'Times New Roman', Times, serif;
-    
     }
     li a{
         font-size: 20px;
@@ -163,6 +187,10 @@ li.logo{
     }
   }
 @media (max-width:539px){
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(226 20 20 / 50%);
+        min-width: 19.5%;
+    }
     span{
         position: absolute;
         top:3px;

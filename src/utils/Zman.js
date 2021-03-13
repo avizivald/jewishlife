@@ -123,7 +123,7 @@ function Zman(props) {
     }, [coordinates]);
     return (<section className="section1">
         <SearchLocationInput onSelect={onSelect} />
-        {/* {zmanimInfo} */}
+        {zmanimInfo}
     </section>
 
     );

@@ -18,14 +18,14 @@ function GridTamplet(props) {
 
       <FullScreen handle={handle}>
         <div className="grid-container">
-          <div className="mainOfGA"><TextArea min={30}/></div>
+          <div className="mainOfGA"><TextArea id='mainOfGA'/></div>
           <div className="header1"><MizrachCell/></div>
           <div className="footer">footer</div>
           <div className="r1"><Cell/></div>
           <div className="r2"><Cell/></div>
           <div className="r3">r3</div>
           <div className="l1"><Clock/></div>
-          <div className="l2"><TextArea /></div>
+          <div className="l2"><TextArea id ='l2' /></div>
           <div className="l3"><Looach/></div>
         </div>
       </FullScreen>
