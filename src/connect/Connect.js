@@ -58,19 +58,19 @@ function Connect() {
     console.log(response);
   }
 let show = user ? <Help/> :   <div className="Connect">
+ <h1 className='loginHeder'>{getStringsByLanguages('אנא התחבר לאתר','he')}</h1> 
 <section className='connectdiv'>
-  {getStringsByLanguages('אנא התחבר לאתר','fr')}
-
-  <h1>You can connect with Google</h1>
+  
+  <h3 className='googleTitle'>You can connect with Google</h3>
   <GoogleLogin
     clientId="449810030569-5pn3veirrku9kahs3k0im1v9k4tigjde.apps.googleusercontent.com" //CLIENTID NOT CREATED YET
-    buttonText="LOGIN WITH GOOGLE"
+    buttonText=""
     onSuccess={responseGoogle}
     onFailure={responseGoogle}
   />
 </section>
 <section className='connectdiv'>
-  <h1> or log in independently</h1>
+  <h3> or log in independently</h3>
   <div className='forminput'>
     <p>Veteran gabay</p>
     <MyInput name={'Veteranname'} onChange={setObjInfoByChange} title={' name'} placeholder={'enter  name'} />

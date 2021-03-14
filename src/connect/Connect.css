@@ -1,6 +1,17 @@
 .connectdiv{
-    float: right;
+    margin: 2%;
+    padding-top: 2%;
 }
 .Connect{
-    padding: 5%;
+    /* padding: 5%; */
+    display: flex;
+    /* direction: rtl; */
+    /* align-items: center; */
+  /* justify-content: center; */
 }
+
+    .loginHeder{
+        top: -4px;
+        position: relative;
+        right: -40%;
+    }
